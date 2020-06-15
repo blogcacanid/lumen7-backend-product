@@ -3,8 +3,6 @@ Back End Product Lumen 7
 
 > https://blog.cacan.id/back-end-product-lumen-7
 
-![005](https://user-images.githubusercontent.com/51890752/81702927-2087d700-9496-11ea-9a41-6745e44bfe75.jpg)
-
 
 # Cara Penggunaan:
 

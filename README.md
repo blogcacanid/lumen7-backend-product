@@ -27,7 +27,8 @@ Lalu buka browser dan ketikkan URL http://localhost:8000
 
 ## Testing via Postman
 Untuk testing kita akan menggunakan Postman.
-### GET : digunakan untuk mengambil data dari server
+### GET 
+GET : digunakan untuk mengambil data dari server
 #### All Record
 Buka postman lalu pilih method GET kemudian ketikkkan URL http://localhost:8000/api/products
 ![002](https://user-images.githubusercontent.com/51890752/84715836-da91c780-af9b-11ea-87bc-a472fefbce19.jpg)

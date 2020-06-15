@@ -17,7 +17,7 @@ cd lumen7-backend-product
 - cp .env.example .env
 - php artisan key:generate
 
-## Testing
+# Testing
 Jalankan Lumen 7 dengan menggunakan perintah berikut:
 - php artisan serve
 
@@ -25,50 +25,50 @@ Lalu buka browser dan ketikkan URL http://localhost:8000
 
 
 
-### Testing via Postman
+## Testing via Postman
 Untuk testing kita akan menggunakan Postman.
-#### GET : digunakan untuk mengambil data dari server
-##### All Record
+### GET : digunakan untuk mengambil data dari server
+#### All Record
 Buka postman lalu pilih method GET kemudian ketikkkan URL http://localhost:8000/api/products
 ![002](https://user-images.githubusercontent.com/51890752/84715836-da91c780-af9b-11ea-87bc-a472fefbce19.jpg)
 
 
-##### Pagination Record
+#### Pagination Record
 Buka postman lalu pilih method GET kemudian ketikkkan URL http://localhost:8000/api/products_page
 ![003](https://user-images.githubusercontent.com/51890752/84715860-f006f180-af9b-11ea-8b1f-19cbb1b33240.jpg)
 
 
-##### Get berdasarkan ID
+#### Get berdasarkan ID
 Buka postman lalu pilih method GET kemudian ketikkkan URL http://localhost:8000/api/product/19
 ![004](https://user-images.githubusercontent.com/51890752/84715875-fbf2b380-af9b-11ea-8d6e-c0d9f8840769.jpg)
 
 
-#### Post
+### Post
 POST : digunakan untuk menambah data
 Buka postman lalu pilih method POST kemudian ketikkkan URL http://localhost:8000/api/products
 Selanjutnya kita akan mencoba menambahkan data product.
 Pada bagian param isikan data berikut:
-product_name : Kao Attack Softener Fresh Up Dazzling Lilac 800+100Ml
-product_price : 34000
+- product_name : Kao Attack Softener Fresh Up Dazzling Lilac 800+100Ml
+- product_price : 34000
 ![005](https://user-images.githubusercontent.com/51890752/84715905-0d3bc000-af9c-11ea-8283-a2a2afd7b19c.jpg)
 
 
-#### Put
+### Put
 PUT : digunakan untuk mengupdate data
 Buka postman lalu pilih method PUT kemudian ketikkkan URL http://localhost:8000/api/products/7
 Selanjutnya pada bagian param isikan data berikut:
-product_name : SO KLIN RAPIKA Pelicin Pakaian 400ml	
-product_price : 6100
+- product_name : SO KLIN RAPIKA Pelicin Pakaian 400ml	
+- product_price : 6100
 ![006](https://user-images.githubusercontent.com/51890752/84715924-188eeb80-af9c-11ea-8b40-05fb28cbcc13.jpg)
 
 
-#### Delete
+### Delete
 DELETE : digunakan untuk menghapus data
 Buka postman lalu pilih method DELETE dan ketikkkan URL http://localhost:8000/api/products/17
 ![007](https://user-images.githubusercontent.com/51890752/84715956-28a6cb00-af9c-11ea-8700-b417e47fc16d.jpg)
 
-Untuk melihat daftar route anda bisa menggunakan perintah berikut dari command prompt
-php artisan route:list
+Untuk melihat daftar route anda bisa menggunakan perintah berikut dari command prompt:
+- php artisan route:list
 ![008](https://user-images.githubusercontent.com/51890752/84715995-34928d00-af9c-11ea-85d2-43fce3da1b5d.jpg)
 
 
